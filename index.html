@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootsrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portafolio">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="author" content="Jerick Toro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
+    <!-- Title -->
+    <title>Portafolio | Jerick Toro</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar position-fixed navbar-expand-md navbar-light ">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+        <!-- img navbar -->
+        <a class="navbar-brand" href="index.html">
+            <img src="./img/icono.png" alt="logo de la pagina"width="50px" >
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about-me">About me</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#new-projects">Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link " href="#contact" >Contact</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Section Hero -->
+    <section class="hero align-items-stretch">
+        <div class=" hero-main d-flex flex-column align-items-center justify-content-center">
+            <img class="hero-img rounded-circle" src="./img/desarrollador-ejemplo.svg" alt="imagen del dearrollador">
+            <h1>Hello, I am Jerick </h1>
+            <h2>Development and website design</h2>
+        </div>
+        <div class="hero-lower">
+            <img class="img-fluid" src="./img/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, Javascript y React alrededor ">
+        </div>
+    </section>
+    <!-- End Section Hero -->
+    <!-- Section About Me -->
+    <section id="about-me" class="about-me section-night" >
+        <div class="container">
+            <h2 class="section-title text-white">Meet Jerick.</h2>
+            <p class="section-text">
+                Explore my web design portfolio and discover how I can turn your vision into a stunning website. With a focus on elegance and functionality, I offer customized web solutions that stand out in the market. Ready to make an impact online? Contact me today.
+            </p>
+        </div>
+    </section>
+    <!-- End Section About Me -->
+    <!-- Section Xp -->
+    <section class="experience section-day">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Frontend -->
+                <div class="column col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experience-title">Frontend</p>
+                    <p>My web design approach prioritizes user experience and aesthetics, backed by a solid set of Front-end skills. I'm also proficient with libraries and frameworks like Bootstrap and React, enabling me to create interactive and responsive solutions.</p>
+                    <div class="badges-container">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">BOOTSTRAP</span>
+                    </div>
+                </div>
+                <!-- End Frontend -->
+                
+                <!-- Backend -->
+                <div class="column col-12 col-md-4">
+                    <i class="bi bi-database-check"></i>
+                    <p class="experience-title">Backend</p>
+                    <p>I focus on creating robust, secure, and efficient web applications. Using languages like Python and PHP, I build the server-side components that power web solutions. I am familiar with database management, API integration, and server optimization.</p>
+                    <div class="badges-container">
+                        <span class="badge text-bg-primary">PYTHON</span>
+                        <span class="badge text-bg-primary">JAVASCRIPT</span>
+                        <span class="badge text-bg-primary">SQL</span>
+                    </div>
+                </div>
+                <!-- End Backend -->
+
+                <!-- Skills -->
+                <div class="column col-12 col-md-4">
+                    <i class="bi bi-lightbulb"></i>                    
+                    <p class="experience-title">Other Skills</p>
+                    <p>In addition to my experience in web design, I possess skills in the following technologies. This enables me to offer comprehensive and versatile web solutions, combining design and online strategy. Explore my portfolio to see how I can enhance your online presence."
+                    </p>
+                    <div class="badges-container">
+                        <span class="badge text-bg-primary">WORDPRESS</span>
+                        <span class="badge text-bg-primary">DJANGO</span>
+                        <span class="badge text-bg-primary">C++</span>
+                        <span class="badge text-bg-primary">MYSQL</span>
+                    </div>
+                </div> 
+                <!-- End Skills -->
+            </div>
+        </div>
+    </section>
+    <!-- End Section Xp -->
+    <!-- Section Projects -->
+    <section id="new-projects" class="new-projects section-day d-flex flex-column">
+        <h2 class="section-title text-night">My New Projects</h2>
+        <h3 class="section-description">These are one of the new projects I have recently created</h3>
+        <!-- Project Gallery -->
+        <div class="container text-center project-container">
+            <div class="row">
+                <!-- PROJECT 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project">
+                        <img src="./img/proyecto1.png" alt="Projec I">
+                        <div class="overlay">
+                            <p>Project I</p>
+                            <div class="icon-container">
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PROJECT 1 -->
+                <!-- PROJECT 2  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project">
+                        <img src="./img/proyecto1.png" alt="Projec II">
+                        <div class="overlay">
+                            <p>Project II</p>
+                            <div class="icon-container">
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PROJECT 2  -->
+                <!-- PROJECT 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project">
+                        <img src="./img/proyecto1.png" alt="Projec III">
+                        <div class="overlay">
+                            <p>Project III</p>
+                            <div class="icon-container">
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PROJECT 3 -->
+                <!-- PROJECT 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project">
+                        <img src="./img/proyecto1.png" alt="Projec IV">
+                        <div class="overlay">
+                            <p>Project IV</p>
+                            <div class="icon-container">
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PROJECT 4 -->
+                <!-- PROJECT 5  -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project">
+                        <img src="./img/proyecto1.png" alt="Projec V">
+                        <div class="overlay">
+                            <p>Project V</p>
+                            <div class="icon-container">
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PROJECT 5  -->
+                <!-- PROJECT 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project">
+                        <img src="./img/proyecto1.png" alt="Projec VI">
+                        <div class="overlay">
+                            <p>Project VI</p>
+                            <div class="icon-container">
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="nooponer noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PROJECT 6 -->
+            </div>
+        </div>
+        <!-- End Project Gallery -->
+        <a href="https://github.com/JerickTwO" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                See More Projects
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>    
+    </section>
+    <!--End Section Projects -->
+    <!-- Section Contact -->
+    <section id="contact" class="contact section-night ">
+        <div class="container text-center d-flex rectangle justify-content-evenly ">
+            <div class="row">
+                <div class="col-12 col-md-4 section-title">
+                    Contact Me
+                </div>
+                <div class="col-12 col-md-4 description">
+                    Let's talk! I'm ready to bring your project to life. Get in touch with me, and let's start working together.
+                </div>
+                <div class="col-12 col-md-4 ">
+                    <a href="mailto:Jerickjjtm774@gmail.com">
+                        <button>Contact
+                            <i class="bi bi-envelope-check-fill"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Contact -->
+    <!-- Footer -->
+    <footer class="section-night d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="img/icono-blanco.svg" alt="white color ">
+        <p class="footer-text text-center">I learn and practice every day<br>We create projects together</p>
+        <div class="social-media-icons d-flex flex-wrap align-item-center justify-content-center" >
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jerick-toro-5a5a97263/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/JerickTwO" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+        <div class="copyright">Create by Jerick (2023) &#169;</div>
+    </footer>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
