@@ -15,7 +15,7 @@ section{
 
 .section-night{
     color: #fff;
-    background-color: #1b1b32;
+    background-color: #040404;
 }
 .section-title{
     font-size: 2rem;
@@ -47,7 +47,7 @@ section{
     padding: 34px;
     background-color: #f5f6f7;
     border-bottom: 2px solid #00000029;
-    z-index: 10000;
+    z-index: 100;
 }
 .navbar-collapse{
     align-items: center;
@@ -185,7 +185,17 @@ section{
     margin: 10px;
 }
 /* End Section Project */
-
+/* Button */
+.btn{
+    color: #fff;
+    background-color: #000;
+    border: solid 2px #2a2a2a;
+}
+.btn:hover{
+    color: #000000;    
+    background-color: rgb(255, 255, 255);
+}
+/* End button */
 /* Section Contact */
 .contact .container {
     max-width:1100px;
@@ -195,7 +205,7 @@ section{
 }
 .contact .rectangle{
     margin-top: -5rem;
-    background-color: rgb(13, 110, 253);
+    background-color: rgb(50, 50, 50);
     border-radius: 10px;
     box-shadow: 0 1px 4px 1px #fff;
 }
@@ -265,7 +275,7 @@ section{
 .social-media-icons a:hover{
     background-color: #fff;
     border: 2px solid rgb(255, 255, 255);
-    transform: translateY(-20px);
+    transform: translateY(-5px);
 }
 
 .social-media-icons a:hover i{
